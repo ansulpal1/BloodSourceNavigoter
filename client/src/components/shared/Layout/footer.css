@@ -1,0 +1,49 @@
+.footer {
+    height: 300px;
+    background-color: rgb(30, 40, 51);
+    color: white;
+
+}
+
+.footer1 {
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+
+.foot1 {
+    border-bottom: 1px dotted rgb(247, 171, 171);
+}
+
+.footer-logo {
+    margin-top: 25px;
+    margin-left: 4rem;
+    color: red;
+}
+
+.footer-p {
+    margin-top: 38px;
+    font-size: larger;
+
+}
+
+.btn1 {
+    margin: 25px;
+
+    font-weight: bolder;
+    height: 60px;
+    width: 140px;
+
+}
+
+:hover.s-icon {
+    color: red;
+}
+
+.s-icon {
+    margin-right: 4rem;
+}

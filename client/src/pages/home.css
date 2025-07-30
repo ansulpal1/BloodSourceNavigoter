@@ -1,0 +1,166 @@
+* body {
+    background-image: url(../asset/images/Hero-Gradient\ Design.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+
+
+}
+
+.right {
+    margin-left: 30.5rem;
+    margin-top: 10.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.mission {
+    background-color: rgb(236, 236, 236);
+    margin-top: 16rem;
+    border-radius: 10px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.text-h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.text-p {
+    padding: 20px;
+    margin: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+}
+
+.box0 {
+    position: relative;
+}
+
+.box1 {
+    position: absolute;
+    left: 36.5%;
+    top: 3%;
+    z-index: -1;
+}
+
+.box2 {
+    position: absolute;
+    left: -2%;
+    top: 53%;
+    z-index: -1;
+}
+
+.box3 {
+    position: absolute;
+    right: +20.5%;
+    top: 53%;
+    z-index: -1;
+
+}
+
+
+.circle {
+
+    border-radius: 325px;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.icon {
+    margin-top: 35px;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.circle-p {
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.get-blood {
+    padding: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.btn {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.carousel-item {
+    height: 500px;
+
+}
+
+.img {
+    background-size: cover;
+    aspect-ratio: 1;
+}
+
+@media (max-width: 990px) {
+    .right {
+        margin-left: 0.5rem;
+        margin-top: 4.5rem;
+        /* color: #e16105; */
+        color: rgb(137, 119, 119);
+    }
+}
+
+@media (max-width: 538px) {
+    .hide-on-small {
+        margin-top: 5.5rem;
+        display: none;
+    }
+
+    .mtt-5 {
+        margin-top: 3.5rem;
+    }
+}
+
+@media (max-width: 818px) {
+    .get-blood {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 818px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        display: none;
+
+    }
+
+    .circle {
+        margin-top: 25px;
+    }
+
+}
